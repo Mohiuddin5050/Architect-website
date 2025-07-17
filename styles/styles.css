@@ -201,6 +201,25 @@ main > section{
 .sponsors-img img{
     filter: grayscale(100%);
 }
+
+.footer{
+    
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: #FFF4E7;
+    font-size: 20px;
+    color: #424242;
+    text-align: center;
+    margin-top: 130px;
+    margin-bottom: 130px;
+    padding: 20px 0;
+    border-radius: 8px;
+    
+}
+.footer p{
+    width: 100%;
+}
+
 /* responsive media query */
 @media screen and (max-width: 576px) {
     .navbar,
@@ -232,6 +251,9 @@ main > section{
 #badge{
     margin-top: 20px;
     margin-left: 20px;
+}
+.footer{
+    width: 100%;
 }
 }
 
